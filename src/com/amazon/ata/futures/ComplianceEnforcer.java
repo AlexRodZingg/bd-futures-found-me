@@ -1,16 +1,11 @@
-package com.amazon.ata.futures.classroom;
+package com.amazon.ata.futures;
 
-import com.amazon.ata.executorservice.classroom.coralgenerated.customer.GetCustomerDevicesRequest;
-import com.amazon.ata.executorservice.classroom.coralgenerated.customer.GetCustomerDevicesResponse;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.GetDeviceSystemInfoRequest;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.GetDeviceSystemInfoResponse;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.RingDeviceFirmwareVersion;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.RingDeviceSystemInfo;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.UpdateDeviceFirmwareRequest;
-import com.amazon.ata.executorservice.classroom.coralgenerated.devicecommunication.UpdateDeviceFirmwareResponse;
-import com.amazon.ata.executorservice.classroom.customer.CustomerService;
-import com.amazon.ata.executorservice.classroom.devicecommunication.RingDeviceCommunicatorService;
-import com.amazon.ata.executorservice.classroom.util.KnownRingDeviceFirmwareVersions;
+import com.amazon.ata.executorservice.coralgenerated.customer.GetCustomerDevicesRequest;
+import com.amazon.ata.executorservice.coralgenerated.customer.GetCustomerDevicesResponse;
+import com.amazon.ata.executorservice.coralgenerated.devicecommunication.*;
+import com.amazon.ata.executorservice.customer.CustomerService;
+import com.amazon.ata.executorservice.devicecommunication.RingDeviceCommunicatorService;
+import com.amazon.ata.executorservice.util.KnownRingDeviceFirmwareVersions;
 
 import java.util.ArrayList;
 import java.util.List;

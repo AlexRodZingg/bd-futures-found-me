@@ -1,12 +1,6 @@
 ## Futures: They Found Me
 
-**branch name:** futures-classroom
-
 No AWS resources are required for this activity
-
-**RDE workflows:**
-- `futures-classroom-phase1`
-- `futures-classroom-phase2`
 
 ### Introduction
 In our ExecutorServices classroom activity, we wrote code to concurrently
@@ -32,18 +26,17 @@ improving the runtime.
 
 #### Code intro
 
-We're reusing a lot of classes from the previous lesson, like `CustomerService` and
-`RingDeviceCommunicatorService`. The only new code is `ComplianceEnforcer` in the
-`com.amazon.ata.futures` package.
+We'll be reusing a lot of classes from the previous lesson. 
+The only new code is `ComplianceEnforcer` in the `com.amazon.ata.futures` package.
+Take the `com.amazon.ata.futures` package (make sure to grab both the `src` and `tst` 
+packages) and move it into yesterday's code.
 
-#### Try building
-
-Sync your classroom snippets package and run the `futures-classroom-phase1`
-RDE workflow. The code should build, but tests should fail.
+Once you've moved your code to yesterday's project, the code should build, but tests 
+should fail.
 
 #### Discuss
 
-Look through the code with your team and answer these questions:
+Look through the code and answer these questions:
 
 1. Which operations in the `ComplianceEnforcer` could be done concurrently?
 2. Which of those operations would get the greatest benefit from concurrency?
@@ -53,7 +46,7 @@ Look through the code with your team and answer these questions:
 **GOAL:** Become familiar with the code and makes sure that it builds
 
 Phase 0 is complete when:
-- You have found the `ComplianceEnforcer` and your team has answers to
+- You have found the `ComplianceEnforcer` and you have answers to
   the discussion questions above.
 - The code is building in your workspace (but tests are failing)
 
@@ -62,14 +55,14 @@ Phase 0 is complete when:
 As a class, we've decided on the operation that would get the most benefit
 from concurrency. Now go and make it so!
 
-We'll be "mob programming" for this phase. The **Recorder** will act as the
-Driver, while the other team members will be the Navigators. The principle
-here is that "every idea must got through someone else's hands".
+We'll be "mob programming" for this phase. One person will be writing the Driver, 
+while the other team members will be the Navigators. The principle
+here is that "every idea must go through someone else's hands".
 
 **Navigators**, your job is to discuss the idea being coded and guide the
 Driver in creating the code. Sometimes that will mean speaking slowly, or
 even spelling out the letters needed. Sometimes it'll be an abstract concept.
-Always remember the ATA tenets of kindness and collaboration.
+Always remember the tenets of kindness and collaboration.
 
 **Driver**, your job is to trust the Navigators. Focus on the coding. Ask
 for clarification. Tell them when you need clarification and when you need
@@ -90,7 +83,7 @@ a moment of silence.
 
 #### Phase 1 is complete when:
 - You've updated the operation determined by the class to use concurrency.
-- `futures-classroom-phase1` tests are passing
+- `Phase1Test` tests are passing
 
 ### Phase 2: Smaller Benefits
 
@@ -110,7 +103,7 @@ concurrently.
 
 #### Phase 2 is complete when:
 - You have implemented the second operation to be concurrent.
-- `futures-classroom-phase2` tests are passing
+- `Phase2Test` tests are passing
 
 ### Extensions
 

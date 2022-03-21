@@ -1,9 +1,9 @@
-package com.amazon.ata.futures.classroom;
+package com.amazon.ata.futures;
 
-import com.amazon.ata.executorservice.classroom.coralgenerated.customer.GetCustomerDevicesRequest;
-import com.amazon.ata.executorservice.classroom.customer.CustomerService;
-import com.amazon.ata.executorservice.classroom.devicecommunication.RingDeviceCommunicatorService;
-import com.amazon.ata.executorservice.classroom.util.KnownRingDeviceFirmwareVersions;
+import com.amazon.ata.executorservice.coralgenerated.customer.GetCustomerDevicesRequest;
+import com.amazon.ata.executorservice.customer.CustomerService;
+import com.amazon.ata.executorservice.devicecommunication.RingDeviceCommunicatorService;
+import com.amazon.ata.executorservice.util.KnownRingDeviceFirmwareVersions;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
